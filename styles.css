@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8e8ff;
+    color: #4a235a;
+    text-align: center;
+}
+
+.header {
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    width: 100%;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #8e44ad;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;  
+}
+
+.btn2 {
+    background-color: #8e44ad;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;  
+}
+
+.conoceme {
+    background-color: #d2b4de;
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.profile-pic {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.titulo-Portafolio{
+    margin-top: 50px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.titulo-servicios{
+    margin-top: 50px;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.servicio-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicio-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contacto {
+    margin: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #9b59b6;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px;
+}
+
+
+
