@@ -51,7 +51,11 @@ body {
     padding: 10px 20px;
     border-radius: 20px;
     color: white;
-    text-decoration: none;  
+    text-decoration: none; 
+    width: 150px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .conoceme {
@@ -135,6 +139,7 @@ footer {
     color: white;
     padding: 10px;
 }
+
 
 
 
